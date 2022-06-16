@@ -58,6 +58,7 @@ li{
     text-decoration: underline;
 }
 img{
+    width: 85%;
     display: block;
     margin: 0px auto;
 }
@@ -97,6 +98,9 @@ a:hover{
     background-image: linear-gradient(90deg, #c5ebd6, white);
     color: #0d753a;
     font-family: android, sans-serif;
+}
+.estatica{
+    max-width: 350px;
 }
 .video{
     background-color: #063D1E;

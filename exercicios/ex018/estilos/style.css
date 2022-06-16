@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root{
+    --corfundo: #491BF2;
+    --corfraca: #150FBF;
+    --corforte: #041159;
+    --cordestaque: #0BD904;
+
+    --fontepadrao: Arial, Verdana, Helvetica, sans-serif;
+    --fontedestaque: 'Press Start 2P', cursive;
+}
+
+/* Estilos Gerais */
+*{
+    margin: 0px;
+}
+body{
+    margin: 0em;
+    background-color: var(--cordestaque);
+    min-height: 100%;
+}
+header{
+    width: 100%;
+    min-width: 800px;
+    padding: 1em;
+    background-image: linear-gradient(to bottom, var(--corfundo), var(--corforte));
+}
+nav{
+    padding-bottom: 1em;
+}
+main{
+    width: 800px;
+    margin: 0em auto;
+    padding: 1em;
+    background-color: white;
+    border-radius: 0em 0em 1em 1em;
+
+}
+article{
+    display: inline-block;
+    width: 366px;
+    height: 300px;
+    padding: 1em;
+    background-color: gainsboro;
+    border-radius: 1em;
+    overflow: scroll;
+}
+footer{
+    position: absolute;
+    bottom: 0em;
+    width: 100%;
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: var(--corforte);
+    color: white;
+    text-align: center;
+}
+
+/* Estilos Especificos */
+header > h1{
+    text-align: center;
+    font-family: var(--fontedestaque);
+    font-weight: normal;
+    color: var(--cordestaque);
+    padding: 1.2em;
+}
+nav a{
+    text-decoration: none;
+    color: var(--corforte);
+    font-family: var(--fontepadrao);
+    font-weight: bold;
+    padding: 0.7em;
+    margin-right: 0.5em;
+    background-color: var(--cordestaque);
+    border-radius: 0.8em;
+}
+article::-webkit-scrollbar{
+    width: 0em;
+}
+article h1{
+    padding: 0.5em 0em;
+    font-family: var(--fontedestaque);
+    font-weight: normal;
+    font-size: 1.2em;
+}
+article p{
+    text-indent: 1em;
+    font-family: var(--fontepadrao);
+    text-align: justify;
+}
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cordestaque);
+}
