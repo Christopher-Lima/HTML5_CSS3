@@ -19,7 +19,6 @@
 body{
     margin: 0em;
     background-color: var(--cordestaque);
-    min-height: 100%;
 }
 header{
     width: 100%;
@@ -48,10 +47,7 @@ article{
     overflow: scroll;
 }
 footer{
-    position: absolute;
     bottom: 0em;
-    width: 100%;
-    margin-top: 1em;
     padding: 0.5em;
     background-color: var(--corforte);
     color: white;
