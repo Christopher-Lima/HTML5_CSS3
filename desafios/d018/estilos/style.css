@@ -57,10 +57,10 @@ section{
     margin-top: 50px;
 }
 .estrofe_imagem p{
-    width: 220px;
+    width: 200px;
     color: white;
     background-color: rgba(0, 0, 0, 0.281);
-    padding: 5px;
+    padding: 3px 10px
 }
 #e2{
     background: goldenrod url(../imagens/background001.jpg) right center;
