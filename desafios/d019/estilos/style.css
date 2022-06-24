@@ -1,10 +1,15 @@
 table{
     width: 300px;
-    height: 200px;
     text-align: center;
+    border-collapse: collapse;
 }
-table tr, td{
+table th, tr, td{
     border: 1px black solid;
+    padding: 1em;
+}
+table th{
+    color: white;
+    background-color: gray;
 }
 table td:hover{
     font-weight: bold;
